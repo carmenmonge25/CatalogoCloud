@@ -6,7 +6,7 @@ El equipo de redes necesita auditar el firewall de Francia. Extrae una lista con
 
 Primero comenzamos con la ruta con la que se llega a la información que queremos, en este caso, queremos extraer una lista de puertos, asique la ruta será en principio:  
 
-` /catalogo_cloud/centro_datos/servidor/software/servicios/servicio/@puerto
+` /catalogo_cloud/centro_datos/servidor/software/servicios/servicio/@puerto`
 
 Y ahora aplicamos las correspondientes restricciones, que son que se estén ejecutando (estado="activo"), y que el centro de datos esté en París (ubicacion="Paris"):
 
